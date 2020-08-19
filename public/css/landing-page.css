@@ -1,22 +1,22 @@
 .top {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .left {
-    width: 50%;
-    padding: 0 0 0 10%;
+  width: 50%;
+  padding: 0 0 0 10%;
 }
 .left .highlight {
-    color: #fbe63f;
+  color: #fbe63f;
 }
 
 .bottom {
-    padding: 48px 0 0 0;
-    display: flex;
-    justify-content: center;
+  padding: 48px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 .bottom .fa-plane {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }

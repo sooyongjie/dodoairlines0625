@@ -38,7 +38,27 @@ table a:visited {
     color: #7d6f5c;
 }
 
-.img-welcome {
+.img-tom {
+    height: 350px;
+    position: sticky;
     padding-left: 40px;
 }
 
+.list {
+    width: 25.5vw;
+    align-self: center;
+    line-height: 24px;
+    font-weight: 500;
+}
+.list li:nth-child(1) {
+    margin: 2px 0 4px 0; 
+    font-size: 14px;
+}
+.list ol p:first-child {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.list:last-child {
+    margin-top: 24px;
+}
