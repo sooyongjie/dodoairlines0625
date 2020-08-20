@@ -1,5 +1,6 @@
 html {
   min-width: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  z-index: 1;
 }
 
 .nav {
@@ -119,15 +121,18 @@ button span {
 }
 
 .bottom {
-  color: #7d6f5c;
+  color: #6b5f4e;
   height: 120px;
   padding: 48px 0 0 0;
   display: flex;
   justify-content: center;
 }
 
-.bottom .fa-plane {
-  padding: 0 20px 0 20px;
+.bottom .airplane {
+  position: relative;
+  top: 3px;
+  height: 20px;
+  padding: 0 12px 0 12px;
 }
 
 /* footer */
@@ -144,7 +149,7 @@ button span {
 }
 
 .footer-content {
-  width: 600px;
+  width: 700px;
   padding: 52px 10vw 0 10vw;
   display: flex;
   flex-direction: row;
@@ -158,8 +163,8 @@ button span {
 }
 
 .footer-content .img-logo-footer img {
-    position: relative;
-    top: -4px;
+  position: relative;
+  top: -4px;
   height: 48px;
 }
 
@@ -178,8 +183,7 @@ button span {
 }
 
 .footer-content ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 -0 0 0;
 }
 
 .footer-content ul li {
@@ -188,6 +192,15 @@ button span {
   font-size: 15px;
   font-weight: 500;
   line-height: 28px;
+}
+
+.footer-content a img {
+  height: 14px;
+  padding-right: 2px;
+}
+
+.footer-content a p {
+  display: inline-block;
 }
 
 .facebook,
