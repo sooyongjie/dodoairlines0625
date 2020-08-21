@@ -6,9 +6,9 @@ html {
 body {
   background-color: white;
   padding: 0;
-  margin: 0;
+  margin: 0; 
   font-family: "Raleway", sans-serif;
-  z-index: 1;
+  z-index: 1;  /* z-index: ; */
 }
 
 .nav {
@@ -23,8 +23,8 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 420px;
-  padding: 0 0 0 30%;
-  margin: -20px 0 0 0;
+  padding: 0 0 0 30%; /* Padding */
+  margin: -20px 0 0 0; /* Margin */
   list-style-type: none;
 }
 
@@ -36,14 +36,14 @@ a {
 
 .img-header {
   min-width: 100%;
-  position: absolute;
-  z-index: -1;
+  position: absolute; /* Absolute */
+  z-index: -1;  /* z-index: ; */
 }
 
 .img-footer {
   min-width: 100%;
-  position: absolute;
-  z-index: -1;
+  position: absolute; /* Absolute */
+  z-index: -1;  /* z-index: ; */
 }
 
 .img-header {
@@ -59,12 +59,12 @@ a {
   margin: 8px 0 0 0;
   height: 50px;
   padding: 12px;
-  z-index: 1;
+  z-index: 1;   /* z-index: ; */
   -webkit-animation: scale-down 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-down 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-.img-logo:hover {
+.img-logo:hover { /* Psuedo-class */
   -webkit-animation: scale-up 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -89,7 +89,7 @@ button {
   background-color: #ede3b8;
   color: #7d6f5c;
   border-radius: 12px;
-  border: none;
+  border: none; /* Border */
   font-family: "Varela Round", sans-serif;
   font-weight: 600;
   transition: 0.1s;
@@ -129,7 +129,7 @@ button span {
 }
 
 .bottom .airplane {
-  position: relative;
+  position: relative; /* Relative */
   top: 3px;
   height: 20px;
   padding: 0 12px 0 12px;
@@ -163,13 +163,13 @@ button span {
 }
 
 .footer-content .img-logo-footer img {
-  position: relative;
+  position: relative; /* Relative */
   top: -4px;
   height: 48px;
 }
 
 .footer-content .img-logo-footer p {
-  position: relative;
+  position: relative; 
   right: 9px;
   color: #fff;
   font-size: 12px;
@@ -194,9 +194,11 @@ button span {
   line-height: 28px;
 }
 
-.footer-content a img {
-  height: 14px;
-  padding-right: 2px;
+.footer-content .img-arrow {
+  position: relative;
+  top: 2px;
+  right: 4px;
+  height: 16px;
 }
 
 .footer-content a p {
