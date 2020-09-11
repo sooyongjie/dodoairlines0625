@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordinates</title>
+    <link rel="stylesheet" href="coordinates.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body" onresize="reloadPage()">
+    <h1>Cursor Coordinates</h1>
+    <p id="demo">Click on any part of the section below</p>
+    <!-- pass event object to function -->
+    <div onclick="showCoords(event)" id="box"></div>
+    <!-- call function to clear elements in div -->
+    <p onclick="clearEl()" id="clear">Clear</p>
+  </body>
+  <script src="coordinates.js"></script>
+</html>

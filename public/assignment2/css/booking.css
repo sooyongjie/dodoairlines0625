@@ -1,0 +1,114 @@
+.container {
+    padding: 20px 10vw 70px 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    color: #000000;
+}
+
+.booking {
+    font-size: 28px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    grid-template-columns: repeat(2, minmax(100px, 200px));
+    grid-template-rows: 25px 60px 25px 60px 25px 60px 25px 60px;
+    column-gap: 30px;
+}
+
+label, .summary-text {
+    color: #6b5f4e;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+input, select {
+    height: 35px;
+    padding: 0 8px 0 8px;
+    margin-bottom: 20px;
+    color: #333333;
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    transition: 0.1s;
+}
+
+input:focus {
+    background-color: #fefefe;
+    border: 1px solid #fbe63f;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+
+select:focus {
+    background-color: #fefefe;
+    border: 1px solid #fbe63f;
+    outline: none;
+}
+
+.form .ticket-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .ticket-input input {
+    width: 40px;
+}
+
+/* Remove input arrows for number input */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form button {
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+
+.right {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h4 {
+    margin: 4px 0 4px 0;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+span {
+    color: #555;
+    font-weight: 500;
+}
+
+hr {
+    width: 400px;
+    height: 1px;
+    border: none;
+    background-color: #eee;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+}
