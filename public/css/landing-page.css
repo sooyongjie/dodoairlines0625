@@ -1,15 +1,61 @@
 .top {
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 
 .left {
-  width: 50%;
+  width: 45%;
   padding: 0 0 0 10%;
 }
 .left .highlight {
   color: #fbe63f;
+}
+
+.btn-learn-more {
+  margin-top: 4%;
+}
+
+.right {
+  width: 40%;
+}
+
+.right .prev, .next {
+  position: absolute;
+  margin-top: 10%;
+  padding: 4px 6px 4px 6px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.right .next {
+  right: 5.35%;
+}
+
+button:hover {
+  background-color: rgba(236, 227, 184, 1);
+}
+button:active,
+button:focus {
+  color: rgba(125, 111, 92, 1);
+  background-color: rgba(236, 227, 184, 1);
+  outline: none;
+}
+
+.controls {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.right img {
+  height: auto;
+  width: 40%;
+  object-fit: scale-down;
+  border-radius: 100px;
+  position: absolute;
+  transition: 0.3s;
+  opacity: 0;
 }
 
 .bottom {

@@ -24,8 +24,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 420px;
-  padding: 0 0 0 30%; /* Padding */
+  width: 600px;
+  padding: 0 0 0 20%; /* Padding */
   margin: -20px 0 0 0; /* Margin */
   list-style-type: none;
 }
@@ -113,17 +113,6 @@ button:focus {
 button span {
   font-size: 16px;
   margin: 0;
-}
-.btn-learn-more {
-  margin-top: 4%;
-}
-
-/* Right image */
-.img-welcome {
-  height: auto;
-  max-width: 40%;
-  padding: 0 0 0 0%;
-  object-fit: scale-down;
 }
 
 .bottom {

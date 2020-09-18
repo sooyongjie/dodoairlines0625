@@ -1,0 +1,38 @@
+.container {
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.gallery {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery .col img {
+    max-height: 16vh;
+    cursor: pointer;    
+}
+
+.gallery .selected {
+    min-width: 47vw;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.selected span {
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.gallery .selected img {
+    max-height: 55vh;
+    object-fit: scale-down;
+    transition: 0.2s;
+}

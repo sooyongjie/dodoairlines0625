@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Dodo Airlines" />
+    <meta
+      property="og:description"
+      content="Your one and only gateway to the skies."
+    />
+    <meta property="og:image" content="/img/welcome.png" />
+    <meta
+      property="og:url"
+      content="https://dodoairlines0625.web.app/index.html"
+    />
+    <title>Dodo Airlines</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/booking.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="nav" id="id">
+      <div class="img-header"></div>
+      <a href="index.html">
+        <img src="img/logo.svg" alt="logo" class="img-logo" />
+      </a>
+      <ul class="nav-links">
+        <li>
+          <h4>
+            <a href="index.html">Home</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="gallery.html">Gallery</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="constructor.html">Constructor</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="booking.html">Booking</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="about.html">About Us</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="contact.html">Contact</a>
+          </h4>
+        </li>
+      </ul>
+    </div>
+    <!-- Main content -->
+    <div class="container">
+      <div class="form">
+        <h2 class="booking">Booking</h2>
+        <!-- Form -->
+        <form name="flight" autocomplete="on">
+          <label for="cust_name">Full Name</label> <!-- A label for each input -->
+          <label for="cust_name">IC or Passport Number</label>
+          <input type="text" name="name" id="Name"></input>  <!-- Name input -->
+          <input type="text" name="IC/Passport" id="Identification"/>  <!-- id input -->
+          <label for="cust_name">Phone Number</label>
+          <label for="cust_name">Email</label>
+          <input type="tel" name="tel" id="Tel"/>  <!-- Phone number input -->
+          <input type="text" name="email" id="Email"/>  <!-- Email input -->
+          <label for="cust_name">From</label>
+          <label for="cust_name">To</label>
+          <select name="depature" id="Depature"> <!-- Dropdown list for depature location -->
+            <option value="">Depature</option>
+            <option value="Dodo Airport">North Dodo Airport</option>
+            <option value="Dodo Airport">South Dodo Airport</option>
+            <option value="Dodo Airport">The Dodo Airport</option>
+          </select>
+          <select name="destination" id="Destination"> <!-- Dropdown list for destination -->
+            <option value="">Destination</option>
+            <option value="Photopia">Photopia</option>
+            <option value="Isabelle's Cottage">Isabelle's Cottage</option>
+            <option value="Nook Family">Nook Family</option>
+          </select>          
+          <label for="cust_name">Flight Date</label>
+          <label for="cust_name">Ticket Quantity</label>
+          <input type="date" name="date" id="Date"/>  <!-- Date input -->
+          <div class="ticket-input">  <!-- Ticket inputs -->
+            <input type="number" name="ticket" id="Adult Ticket" class="ticket" placeholder="Adult"/>
+            <input type="number" name="ticket" id="Child Ticket" class="ticket" placeholder="Child"/>
+            <input type="number" name="ticket" id="Infant Ticket" class="ticket" placeholder="Infant"/>
+          </div>
+        </form>
+        <!-- Submit button -->
+        <button class="btn-learn-more submit">
+          <span>Submit</span>
+        </button>
+      </div>
+      <!-- display summary information -->
+      <div class="right">
+        <h2 class="summary"></h2>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="img-footer"></div>
+      <!-- Footer -->
+      <div class="footer-content">
+        <div class="img-logo-footer">
+          <img src="img/logo.svg" alt="logo" />
+          <p>@2020</p>
+        </div>
+        <ul>
+          <p>Dodo Airlines</p>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About us</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+        <div class="follow-us">
+          <p>Follow Us</p>
+          <a href="https://www.facebook.com/wipeyourbuttocks">
+            <img src="img/facebook.svg" alt="facebook" class="facebook" />
+          </a>
+          <a href="https://www.instagram.com/sooyongjie">
+            <img src="img/instagram.svg" alt="instagram" class="instagram" />
+          </a>
+          <a href="https://www.twitter.com/sooyongjie">
+            <img src="img/twitter.svg" alt="twitter" class="twitter" />
+          </a>
+          <a href="https://www.github.com/sooyongjie">
+            <img src="img/github.svg" alt="github" class="github" />
+          </a>
+        </div>
+        <!-- Internal Link -->
+        <a href="#top">
+          <img src="img/arrow-up.svg" alt="arrow icon" class="img-arrow" />
+          <p>Scroll to top</p>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="js/booking.js"></script>
+</html>
